@@ -1,0 +1,74 @@
+
+
+.items {
+  display:flex;
+  flex-direction:row;
+  row-gap: 9px;
+  justify-content: space-between;
+  padding: 7px;
+  background-color: rgb(235, 235, 252);
+  
+}
+
+.left-side {
+  display:flex;
+  flex-direction:row;
+
+}
+
+.right-side {
+  display:flex;
+  align-items: center;
+}
+
+.checked {
+  align-self: center;
+  margin-right:15px;
+  width: 17px;
+  height:17px;
+  cursor:pointer;
+  
+}
+
+.unchecked {
+  align-self: center;
+  margin-right:15px;
+  width: 17px;
+  height:17px;
+  background-color: rgb(95, 87, 87);
+  cursor:pointer;
+}
+
+.bin-button {
+  background-color: rgb(235, 235, 252);
+  border: none;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  width: 20px; 
+  padding: 0px;
+  cursor:pointer;
+  
+}
+
+.bin-icon {
+  display:flex;
+  width: 100%;
+}
+
+.edit-button{
+  background-color: rgb(235, 235, 252);
+  border: none;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  width: 20px; 
+  padding: 0px;
+  margin-left: 4px;
+  cursor:pointer;
+}
+
+.edit-pen {
+display: flex;
+width: 100%;
+}
